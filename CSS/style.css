@@ -75,6 +75,30 @@ a{
     display: block;
     margin: auto;
 }
+
+.underline{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chip{
+    display: inline-block;
+    width: 30px;
+    border-radius: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+.chip-purple{
+    background-color: #a0006e;
+
+}
+
+.chip-brown{
+    background-color: #6e491e;
+
+}
 /* header */
 .header{
     background-color: #333;
@@ -173,4 +197,23 @@ footer{
 }
 footer p{
     margin-bottom: 0;
+}
+
+/*Where*/
+.where{
+    padding: 180px 0 100px 0;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.where-img{
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.where-txt{
+    float: right;
+    width: 50%;
 }
